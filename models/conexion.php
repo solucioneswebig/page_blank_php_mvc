@@ -32,7 +32,7 @@ public function __construct() {
 class Conexion extends PDO { 
 	private $tipo_de_base = 'mysql';
 	private $host = 'localhost';
-	private $nombre_de_base = 'bd_gestionexcel';
+	private $nombre_de_base = 'shared_link';
 	private $usuario = 'root';
 	private $contrasena = ''; 
 	public function __construct() {
